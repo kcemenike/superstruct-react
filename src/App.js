@@ -1,5 +1,6 @@
 import './App.css';
 import BiologyToday from './components/biologyToday'
+import AutoReview from './components/autoReview'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
           My really cool blog site
         </p>
       </header>
-      <BiologyToday/>
+      <BiologyToday />
+      <AutoReview />
     </div>
   );
 }
